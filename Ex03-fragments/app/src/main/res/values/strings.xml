@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex03 - fragments</string>
+    <string name="txv_hellofragment">Hello, fragment!</string>
+    <string name="txv_helloactivity">Hello, activity!</string>
+</resources>
