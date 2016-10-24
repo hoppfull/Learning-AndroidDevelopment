@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex02 - java 8</string>
+    <string name="txv_mytextview_state_start">Hello, world!</string>
+    <string name="txv_mytextview_state_btn1">state 1!</string>
+    <string name="txv_mytextview_state_btn2">state 2!</string>
+    <string name="btn_mybutton1">Click</string>
+    <string name="btn_mybutton2">Click</string>
+</resources>
