@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex04 - bundles and parcelables</string>
+    <string name="btn_mybutton">Click</string>
+    <string name="txv_mainwelcome">Transferring state with Bundle!</string>
+</resources>
