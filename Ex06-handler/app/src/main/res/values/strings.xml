@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex06 - handler</string>
+    <string name="str_loading">Loading...</string>
+    <string name="str_done">Done!</string>
+</resources>
