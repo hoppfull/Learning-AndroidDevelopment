@@ -1,0 +1,5 @@
+<resources>
+    <!-- Valid facebook id required: -->
+    <string name="app_fbid">00000000000000</string>
+    <string name="app_name">Ex09 - facebook login</string>
+</resources>
