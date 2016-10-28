@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
@@ -24,13 +23,11 @@ public class MainActivity extends AppCompatActivity {
         TextView txv_myfragment = (TextView) myFragment.findViewById(R.id.txv_myfragment);
         Button btn_myfragment = (Button) myFragment.findViewById(R.id.btn_myfragment);
 
-        btn_main.setOnClickListener(view -> {
-            txv_myfragment.setText("Hello from activity! i = " + (i++));
-        });
+        btn_main.setOnClickListener(view ->
+                txv_myfragment.setText("Hello from activity! i = " + (i++)));
 
-        btn_myfragment.setOnClickListener(view -> {
-            txv_main.setText("Hello from fragment! i = " + (i++));
-        });
+        btn_myfragment.setOnClickListener(view ->
+                txv_main.setText("Hello from fragment! i = " + (i++)));
 
         frm_main.addView(myFragment);
     }
