@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex11 - bottomnavigationbar</string>
+    <string name="bnv_mybar_home">Home</string>
+    <string name="bnv_mybar_contact">Contact</string>
+    <string name="bnv_mybar_about">About</string>
+
+    <string name="msg_home">Welcome to Home fragment!</string>
+    <string name="msg_contact">Welcome to Contact fragment!</string>
+    <string name="msg_about">Welcome to About fragment!</string>
+</resources>
