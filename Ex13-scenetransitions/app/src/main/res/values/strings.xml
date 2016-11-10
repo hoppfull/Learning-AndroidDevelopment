@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ex13 - scene transitions</string>
+
+    <string name="btn_mybutton">Click</string>
+    <string name="txv_mytextview">[My TextView!]</string>
+</resources>
