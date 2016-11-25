@@ -4,7 +4,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class MyModelC implements Parcelable {
-    public static final String SQL_CREATETABLE = "CREATE TABLE IF NOT EXISTS MyModelC(myFieldC TEXT);";
     public final String myFieldC;
 
     public MyModelC(String myFieldC) {

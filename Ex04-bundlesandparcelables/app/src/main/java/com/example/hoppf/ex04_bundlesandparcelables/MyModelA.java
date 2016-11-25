@@ -6,7 +6,6 @@ import android.os.Parcelable;
 import java.util.Arrays;
 
 public class MyModelA implements Parcelable {
-    public static final String SQL_CREATETABLE = "";
     public final MyModelB myModelB;
     public final MyModelC[] myModelCs;
 
