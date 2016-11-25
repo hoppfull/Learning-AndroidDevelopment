@@ -13,10 +13,19 @@ public class MainActivity extends AppCompatActivity {
         Button btn_mybutton = (Button) findViewById(R.id.btn_mybutton);
 
         btn_mybutton.setOnClickListener(view -> {
-            MyModel myModel = new MyModel("How many dwarves?", 7);
+            MyModelA myModelA = new MyModelA(new MyModelB(7), new MyModelC[] {
+                    new MyModelC("huey"),
+                    new MyModelC("dewey"),
+                    new MyModelC("louie")
+            });
+            MyModelB myModelB = new MyModelB(42);
+            MyModelC myModelC = new MyModelC("hello");
+
             Intent intent = new Intent(this, SecondActivity.class);
 
-            intent.putExtra("mystate", myModel);
+            intent.putExtra("myModelA", myModelA);
+            intent.putExtra("myModelB", myModelB);
+            intent.putExtra("myModelC", myModelC);
 
             startActivity(intent);
         });
